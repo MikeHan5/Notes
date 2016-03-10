@@ -12,7 +12,7 @@ class CreatePasswordsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('password_reminders', function(Blueprint $table)
+		Schema::create('password_reminders', function(Blueprint $table)
 		{
 			$table->string('email')->index();
 			$table->string('token')->index();
@@ -27,10 +27,7 @@ class CreatePasswordsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('password_reminders', function(Blueprint $table)
-		{
-			//
-		});
+		Schema::drop('password_reminders');
 	}
 
 }

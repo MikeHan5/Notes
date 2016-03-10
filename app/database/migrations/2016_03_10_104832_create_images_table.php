@@ -12,7 +12,7 @@ class CreateImagesTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('images', function(Blueprint $table)
+		Schema::create('images', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->integer('user_id')->nullable();
@@ -29,10 +29,7 @@ class CreateImagesTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('images', function(Blueprint $table)
-		{
-			//
-		});
+		Schema::drop('images');
 	}
 
 }

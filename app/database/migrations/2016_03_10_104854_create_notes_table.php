@@ -12,7 +12,7 @@ class CreateNotesTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::table('notes', function(Blueprint $table)
+		Schema::create('notes', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->string('user')->unique();
@@ -30,10 +30,7 @@ class CreateNotesTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::table('notes', function(Blueprint $table)
-		{
-			//
-		});
+		Schema::drop('notes');
 	}
 
 }
