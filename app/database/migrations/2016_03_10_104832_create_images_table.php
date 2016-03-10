@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AlterNotesTableV3 extends Migration {
+class CreateImagesTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,16 +12,12 @@ class AlterNotesTableV3 extends Migration {
 	 */
 	public function up()
 	{
-		//
-		Schema::drop('notes');
-
-		Schema::create('notes', function(Blueprint $table)
+		Schema::table('images', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('user')->unique();
-			$table->string('note')->nullable();
-			$table->string('tbd')->nullable();
-			$table->string('link')->nullable();
+			$table->integer('user_id')->nullable();
+			$table->binary('image')->nullable();
+			$table->string('ext')->nullable();
 			$table->timestamps();
 		});
 	}
@@ -33,7 +29,10 @@ class AlterNotesTableV3 extends Migration {
 	 */
 	public function down()
 	{
-		//
+		Schema::table('images', function(Blueprint $table)
+		{
+			//
+		});
 	}
 
 }

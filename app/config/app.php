@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => getenv('APPLICATION_ENV') == 'development' ? true : false,
+	'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -190,7 +190,7 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
-		'Flash'			=> 'Laracasts\Flash\Flash',
+		'Flash'				=> 'Laracasts\Flash\Flash',
 	),
 
 );

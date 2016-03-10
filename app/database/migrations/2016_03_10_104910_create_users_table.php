@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AlterUsersTableV2 extends Migration {
+class CreateUsersTable extends Migration {
 
 	/**
 	 * Run the migrations.
@@ -12,10 +12,7 @@ class AlterUsersTableV2 extends Migration {
 	 */
 	public function up()
 	{
-
-		Schema::drop('users');
-
-		Schema::create('users', function(Blueprint $table)
+		Schema::table('users', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->string('email')->unique();
@@ -34,7 +31,10 @@ class AlterUsersTableV2 extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('users');
+		Schema::table('users', function(Blueprint $table)
+		{
+			//
+		});
 	}
 
 }
