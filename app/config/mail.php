@@ -83,7 +83,7 @@ return array(
 	|
 	*/
 
-	'username' => 'bcitkamil@gmail.com',
+	'username' => 'bcitMike@gmail.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -96,7 +96,7 @@ return array(
 	|
 	*/
 
-	'password' => 'bcitKamil122',
+	'password' => 'bcitMike524',
 
 	/*
 	|--------------------------------------------------------------------------
