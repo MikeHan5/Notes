@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'https://' . getenv('OPENSHIFT_APP_DNS') . '/',
+	'url' => 'http://localhost',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -77,8 +77,8 @@ return array(
 	| will not be safe.
 	|
 	*/
-
-	'key' => substr(getenv('OPENSHIFT_SECRET_KEY'), 0, 31),
+	
+	'key' => 'FP3VZ15fyJoRkbWMNRJZhHa4UJZYqVhU',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 

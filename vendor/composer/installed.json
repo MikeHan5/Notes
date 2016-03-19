@@ -1407,12 +1407,12 @@
         "target-dir": "Symfony/Component/Routing",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/Routing.git",
+            "url": "https://github.com/symfony/routing.git",
             "reference": "46142c34ea830f47429df6e15faec3a33292d618"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/Routing/zipball/46142c34ea830f47429df6e15faec3a33292d618",
+            "url": "https://api.github.com/repos/symfony/routing/zipball/46142c34ea830f47429df6e15faec3a33292d618",
             "reference": "46142c34ea830f47429df6e15faec3a33292d618",
             "shasum": ""
         },
@@ -1594,89 +1594,6 @@
         "homepage": "http://symfony.com"
     },
     {
-        "name": "laracasts/flash",
-        "version": "1.2",
-        "version_normalized": "1.2.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/laracasts/flash.git",
-            "reference": "0c59bfde34e460ec4136f0cbe26715e7de4c7f64"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/laracasts/flash/zipball/0c59bfde34e460ec4136f0cbe26715e7de4c7f64",
-            "reference": "0c59bfde34e460ec4136f0cbe26715e7de4c7f64",
-            "shasum": ""
-        },
-        "require": {
-            "illuminate/support": "~4.0",
-            "php": ">=5.4.0"
-        },
-        "require-dev": {
-            "mockery/mockery": "dev-master"
-        },
-        "time": "2014-08-04 21:10:40",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Laracasts\\Flash": "src/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Jeffrey Way",
-                "email": "jeffrey@laracasts.com"
-            }
-        ],
-        "description": "Easy flash notifications"
-    },
-    {
-        "name": "captcha-com/captcha",
-        "version": "3.0.2",
-        "version_normalized": "3.0.2.0",
-        "source": {
-            "type": "git",
-            "url": "http://git.captcha.com/botdetect-php-captcha-library.git",
-            "reference": "119f8977fa598238a79367798cf3a979fdea5b57"
-        },
-        "require": {
-            "php": ">=5.2.1"
-        },
-        "suggest": {
-            "captcha-com/cakephp-captcha": "BotDetect 3 PHP Captcha integration for the CakePHP framework.",
-            "captcha-com/laravel-captcha": "BotDetect 3 PHP Captcha integration for the Laravel framework."
-        },
-        "time": "2015-10-15 15:54:26",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.x-dev"
-            }
-        },
-        "installation-source": "source",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "Commercial"
-        ],
-        "authors": [
-            {
-                "name": "BotDetect Captcha",
-                "email": "botdetect.support@captcha.com",
-                "homepage": "http://captcha.com/php-captcha.html"
-            }
-        ],
-        "description": "BotDetect 3 PHP Captcha Free composer package.",
-        "homepage": "http://captcha.com/php-captcha.html",
-        "keywords": [
-            "captcha"
-        ]
-    },
-    {
         "name": "captcha-com/laravel-captcha",
         "version": "3.2.1",
         "version_normalized": "3.2.1.0",
@@ -1835,5 +1752,89 @@
         ],
         "description": "Symfony Filesystem Component",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "laracasts/flash",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/laracasts/flash.git",
+            "reference": "2d4633b3cbc75daaff93014f33d837afafe1a7a9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/laracasts/flash/zipball/2d4633b3cbc75daaff93014f33d837afafe1a7a9",
+            "reference": "2d4633b3cbc75daaff93014f33d837afafe1a7a9",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "~4.0",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "dev-master"
+        },
+        "time": "2014-06-30 05:09:34",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Laracasts\\Flash": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeffrey Way",
+                "email": "jeffrey@laracasts.com"
+            }
+        ],
+        "description": "Easy flash notifications"
+    },
+    {
+        "name": "captcha-com/captcha",
+        "version": "3.0.3",
+        "version_normalized": "3.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "http://git.captcha.com/botdetect-php-captcha-library.git",
+            "reference": "7c9eca4d1998f512354d7ebf10f61d34378d2a5e"
+        },
+        "require": {
+            "php": ">=5.2.1"
+        },
+        "suggest": {
+            "captcha-com/cakephp-captcha": "BotDetect 3 PHP Captcha integration for the CakePHP framework.",
+            "captcha-com/laravel-captcha": "BotDetect 3 PHP Captcha integration for the Laravel framework.",
+            "captcha-com/symfony-captcha-bundle": "BotDetect 3 PHP Captcha integration for the Symfony framework."
+        },
+        "time": "2015-12-08 11:52:41",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Commercial"
+        ],
+        "authors": [
+            {
+                "name": "BotDetect Captcha",
+                "email": "botdetect.support@captcha.com",
+                "homepage": "http://captcha.com/php-captcha.html"
+            }
+        ],
+        "description": "BotDetect 3 PHP Captcha Free composer package.",
+        "homepage": "http://captcha.com/php-captcha.html",
+        "keywords": [
+            "captcha"
+        ]
     }
 ]

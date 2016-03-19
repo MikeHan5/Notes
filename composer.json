@@ -6,7 +6,7 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"laracasts/flash": "~1.2",
+		"laracasts/flash": "v1.0.0",
 		"captcha-com/laravel-captcha": "3.*"
 	},
 	"autoload": {

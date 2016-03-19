@@ -4,23 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4ac54c62d02fe5af38e3955278455967",
-    "content-hash": "d57aa8051927b76c1dcda3026d273250",
+    "hash": "38100ae56fada1df147008cffeaa4727",
+    "content-hash": "c3ddafdd6e484be9ec26f51bb846d688",
     "packages": [
         {
             "name": "captcha-com/captcha",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "http://git.captcha.com/botdetect-php-captcha-library.git",
-                "reference": "119f8977fa598238a79367798cf3a979fdea5b57"
+                "reference": "7c9eca4d1998f512354d7ebf10f61d34378d2a5e"
             },
             "require": {
                 "php": ">=5.2.1"
             },
             "suggest": {
                 "captcha-com/cakephp-captcha": "BotDetect 3 PHP Captcha integration for the CakePHP framework.",
-                "captcha-com/laravel-captcha": "BotDetect 3 PHP Captcha integration for the Laravel framework."
+                "captcha-com/laravel-captcha": "BotDetect 3 PHP Captcha integration for the Laravel framework.",
+                "captcha-com/symfony-captcha-bundle": "BotDetect 3 PHP Captcha integration for the Symfony framework."
             },
             "type": "library",
             "extra": {
@@ -44,7 +45,7 @@
             "keywords": [
                 "captcha"
             ],
-            "time": "2015-10-15 15:54:26"
+            "time": "2015-12-08 11:52:41"
         },
         {
             "name": "captcha-com/laravel-captcha",
@@ -322,16 +323,16 @@
         },
         {
             "name": "laracasts/flash",
-            "version": "1.2",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laracasts/flash.git",
-                "reference": "0c59bfde34e460ec4136f0cbe26715e7de4c7f64"
+                "reference": "2d4633b3cbc75daaff93014f33d837afafe1a7a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laracasts/flash/zipball/0c59bfde34e460ec4136f0cbe26715e7de4c7f64",
-                "reference": "0c59bfde34e460ec4136f0cbe26715e7de4c7f64",
+                "url": "https://api.github.com/repos/laracasts/flash/zipball/2d4633b3cbc75daaff93014f33d837afafe1a7a9",
+                "reference": "2d4633b3cbc75daaff93014f33d837afafe1a7a9",
                 "shasum": ""
             },
             "require": {
@@ -358,7 +359,7 @@
                 }
             ],
             "description": "Easy flash notifications",
-            "time": "2014-08-04 21:10:40"
+            "time": "2014-06-30 05:09:34"
         },
         {
             "name": "laravel/framework",
@@ -1599,12 +1600,12 @@
             "target-dir": "Symfony/Component/Routing",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Routing.git",
+                "url": "https://github.com/symfony/routing.git",
                 "reference": "46142c34ea830f47429df6e15faec3a33292d618"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Routing/zipball/46142c34ea830f47429df6e15faec3a33292d618",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/46142c34ea830f47429df6e15faec3a33292d618",
                 "reference": "46142c34ea830f47429df6e15faec3a33292d618",
                 "shasum": ""
             },

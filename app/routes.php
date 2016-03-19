@@ -20,6 +20,7 @@ Route::get('register/verify/{confirmationCode}', [
 		'as' => 'confirmation_path',
 		'uses' => 'UsersController@confirm'
 ]);
+
 //Login
 Route::resource('sessions', 'SessionsController');
 
@@ -38,6 +39,7 @@ Route::get('password/reset', array(
 		'uses' => 'PasswordController@remind',
 		'as' => 'password.remind'
 ));
+
 Route::post('password/reset', array(
 		'uses' => 'PasswordController@request',
 		'as' => 'password.request'

@@ -43,10 +43,9 @@ You may also do:
 
 - `Flash::success('Message')`
 - `Flash::error('Message')`
-- `Flash::warning('Message')`
-- `Flash::overlay('Modal Message', 'Modal Title')`
+- `Flash::overlay('Message')`
 
-Again, if using Laravel, this will set three keys in the session:
+Again, if using Laravel, this will set two keys in the session:
 
 - 'flash_notification.message' - The message you're flashing
 - 'flash_notification.level' - A string that represents the type of notification (good for applying HTML class names)
@@ -56,7 +55,7 @@ With this message flashed to the session, you may now display it in your view(s)
 ```html
 @if (Session::has('flash_notification.message'))
     <div class="alert alert-{{ Session::get('flash_notification.level') }}">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
 
         {{ Session::get('flash_notification.message') }}
     </div>

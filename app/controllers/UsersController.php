@@ -13,7 +13,7 @@ class UsersController extends \BaseController {
 
 	public function index()
 	{
-		//return View::make("users/index", ['users' => $this->user->all()]);
+		return View::make("users/index", ['users' => $this->user->all()]);
 	}
 
 	public function create()
@@ -116,12 +116,12 @@ class UsersController extends \BaseController {
 
 	public function confirm($confirmation_code)
 	{
-		if( !$confirmation_code)
+		if(!$confirmation_code)
 		{
 			return Redirect::route('sessions.create');
 		}
 		$user = User::whereConfirmationCode($confirmation_code)->first();
-		if ( !$user )
+		if (!$user)
 		{
 			return Redirect::route('sessions.create');
 		}
