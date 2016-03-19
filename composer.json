@@ -31,7 +31,8 @@
 		"post-create-project-cmd": []
 	},
 	"config": {
-		"preferred-install": "dist"
+		"preferred-install": "dist",
+		"secure-http": false
 	},
 	"minimum-stability": "stable"
 }
