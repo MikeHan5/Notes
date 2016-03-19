@@ -4,15 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "38100ae56fada1df147008cffeaa4727",
-    "content-hash": "c3ddafdd6e484be9ec26f51bb846d688",
+    "hash": "a4de4b48e1b86eb3b8866ef9e5d6dcec",
+    "content-hash": "428c18c9fa48cd61d529ba022f946fba",
     "packages": [
         {
             "name": "captcha-com/captcha",
             "version": "3.0.3",
             "source": {
                 "type": "git",
-                "url": "http://git.captcha.com/botdetect-php-captcha-library.git",
+                "url": "https://git.captcha.com/botdetect-php-captcha-library.git",
                 "reference": "7c9eca4d1998f512354d7ebf10f61d34378d2a5e"
             },
             "require": {
@@ -49,16 +49,16 @@
         },
         {
             "name": "captcha-com/laravel-captcha",
-            "version": "3.2.1",
+            "version": "3.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/captcha-com/laravel-captcha.git",
-                "reference": "5b7abeec6eebeb5adee1b06e1a99c7c61a6b26c9"
+                "reference": "b7fbadc58adb9035a913d1c8d034e117acb57f3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/captcha-com/laravel-captcha/zipball/5b7abeec6eebeb5adee1b06e1a99c7c61a6b26c9",
-                "reference": "5b7abeec6eebeb5adee1b06e1a99c7c61a6b26c9",
+                "url": "https://api.github.com/repos/captcha-com/laravel-captcha/zipball/b7fbadc58adb9035a913d1c8d034e117acb57f3d",
+                "reference": "b7fbadc58adb9035a913d1c8d034e117acb57f3d",
                 "shasum": ""
             },
             "require": {
@@ -90,7 +90,7 @@
                 "Laravel Captcha",
                 "captcha"
             ],
-            "time": "2015-10-30 09:54:21"
+            "time": "2016-03-05 08:19:15"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -363,16 +363,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.2.17",
+            "version": "v4.2.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3359de6d6cd322e8a1b251c2f8d9dd42a3e4e232"
+                "reference": "93d7dc4a51bb54fe99f070eabbc9a8fd7989f32b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3359de6d6cd322e8a1b251c2f8d9dd42a3e4e232",
-                "reference": "3359de6d6cd322e8a1b251c2f8d9dd42a3e4e232",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/93d7dc4a51bb54fe99f070eabbc9a8fd7989f32b",
+                "reference": "93d7dc4a51bb54fe99f070eabbc9a8fd7989f32b",
                 "shasum": ""
             },
             "require": {
@@ -474,20 +474,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-02-11 20:37:15"
+            "time": "2016-02-02 14:55:02"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.17.2",
+            "version": "1.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24"
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
-                "reference": "bee7f0dc9c3e0b69a6039697533dca1e845c8c24",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
+                "reference": "a5f2734e8c16f3aa21b3da09715d10e15b4d2d45",
                 "shasum": ""
             },
             "require": {
@@ -516,6 +516,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
                 "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
@@ -525,7 +526,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.16.x-dev"
+                    "dev-master": "2.0.x-dev"
                 }
             },
             "autoload": {
@@ -551,7 +552,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-10-14 12:51:02"
+            "time": "2016-03-13 16:08:35"
         },
         {
             "name": "nesbot/carbon",
@@ -646,16 +647,16 @@
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.2.5",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tchwork/utf8.git",
-                "reference": "25a55c6c668de61cc3b97aab4237ebf6dadabe17"
+                "reference": "3bd61bc162ed5c5f4a11e40a0106acc255b451d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tchwork/utf8/zipball/25a55c6c668de61cc3b97aab4237ebf6dadabe17",
-                "reference": "25a55c6c668de61cc3b97aab4237ebf6dadabe17",
+                "url": "https://api.github.com/repos/tchwork/utf8/zipball/3bd61bc162ed5c5f4a11e40a0106acc255b451d9",
+                "reference": "3bd61bc162ed5c5f4a11e40a0106acc255b451d9",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +672,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -701,7 +702,7 @@
                 "utf-8",
                 "utf8"
             ],
-            "time": "2015-10-14 08:58:12"
+            "time": "2015-12-15 15:34:15"
         },
         {
             "name": "phpseclib/phpseclib",
@@ -1266,16 +1267,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.0",
+            "version": "v2.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "a5eb815363c0388e83247e7e9853e5dbc14999cc"
+                "reference": "78c468665c9568c3faaa9c416a7134308f2d85c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/a5eb815363c0388e83247e7e9853e5dbc14999cc",
-                "reference": "a5eb815363c0388e83247e7e9853e5dbc14999cc",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/78c468665c9568c3faaa9c416a7134308f2d85c3",
+                "reference": "78c468665c9568c3faaa9c416a7134308f2d85c3",
                 "shasum": ""
             },
             "require": {
@@ -1322,20 +1323,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2015-10-30 20:15:42"
+            "time": "2016-01-27 05:14:19"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.8.0",
+            "version": "v2.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "3e661a0d521ac67496515fa6e6704bd61bcfff60"
+                "reference": "65cb36b6539b1d446527d60457248f30d045464d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/3e661a0d521ac67496515fa6e6704bd61bcfff60",
-                "reference": "3e661a0d521ac67496515fa6e6704bd61bcfff60",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/65cb36b6539b1d446527d60457248f30d045464d",
+                "reference": "65cb36b6539b1d446527d60457248f30d045464d",
                 "shasum": ""
             },
             "require": {
@@ -1371,7 +1372,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2015-11-23 10:19:46"
+            "time": "2016-02-22 15:02:30"
         },
         {
             "name": "symfony/finder",
@@ -1788,6 +1789,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-mcrypt": "*"
+    },
     "platform-dev": []
 }
