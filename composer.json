@@ -7,7 +7,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"laracasts/flash": "v1.0.0",
-		"captcha-com/laravel-captcha": "3.*"
+		"captcha-com/laravel-captcha": "3.*",
+		"ext-mcrypt": "*"
 	},
 	"autoload": {
 		"classmap": [
